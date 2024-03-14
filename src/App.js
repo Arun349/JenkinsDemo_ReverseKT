@@ -7,10 +7,10 @@ const scsmsg=useRef();
 const errmsg=useRef();
 
 function Handle(){
-if(first=="admin" ){
+if(first==="admin" ){
   scsmsg.current.style.display="block"
 }
-else if(first==""){
+else if(first===""){
   errmsg.current.style.display="block"
 }
 
